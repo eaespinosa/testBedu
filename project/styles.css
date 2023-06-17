@@ -1,0 +1,50 @@
+body {
+    background-color: #dedede;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+header {
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    top: 0;
+    background-color: #dedede;
+}
+#menu {
+    list-style: none;
+    padding-left: 0;
+    margin: 12px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    vertical-align: middle;
+}
+li {
+    display: inline;
+    margin: 15px;
+}
+.title-feat {
+    margin-top: 100px;
+}
+.feats {
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5%;
+}
+img {
+    height: "200";
+}
+@media (max-width: 780px) {
+    body {
+        background-color: aliceblue;
+    }
+    .feats {
+        grid-template-columns: 1fr;
+    }
+    header {
+        display: none;
+    }
+    h2 {
+        font-size: 85%;
+    }
+}

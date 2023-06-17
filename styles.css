@@ -1,6 +1,6 @@
 body {
     color: #2f2f2f;
-    background: #fdfdfd;
+    background: #fcfcfc;
     font-family: system-ui, -apple-system,'Helvetica Neue', Helvetica, Arial;
 }
 a {
@@ -26,16 +26,92 @@ div {
 }
 h1 {
     display: block;
+    justify-content: center;
+    font-weight: 200;
+}
+ul {
+    list-style: none;
+    padding-left: 0;
 }
 li {
     display: inline;
     margin: 15px;
 }
 header {
-    margin: 20px 0 20px 0;
+    margin: 10px 0 20px 0;
     display: flex;
-    
+    vertical-align: center;
+}
+.action {
+    text-align: right;
 }
 button {
-    float: right;
+    background-color: #fcfcfc;
+    color:  #2f2f2f;
+    border: solid 1px #2f2f2f;
+    border-radius: 10px;
+}
+form {
+    margin: 20px;
+}
+input {
+    background-color: #fcfcfc;
+    color:  #2f2f2f;
+    border: solid 1px #2f2f2f;
+    border-radius: 10px;
+}
+main {
+    text-align: center;
+    margin-top: 100px;
+}
+.adds {
+    display: flex;
+    align-items: center;
+    max-width: 70%;
+    margin: 100px auto;
+}
+.video_src {
+    flex: 1;
+}
+.publish {
+    text-align: left;
+    margin-left: 20px;
+  }
+  .publish h3 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 300;
+  }
+  .publish > p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 200;
+  }
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.car {
+    width: 200px;
+    height: 200px;
+}
+.car1 {
+    background-color: azure;
+}
+.car2 {
+    background-color:beige;
+}
+.car3 {
+    background-color:bisque;
+}
+.car4 {
+    background-color:blanchedalmond;
+}
+.features {
+    display: grid;
+    /*grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 250px 300px;*/
+    grid-template: 250px 300px / repeat(2,1fr);
 }

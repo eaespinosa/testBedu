@@ -2,14 +2,15 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <title>Bedu</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
+    <header class="fixed-header">
         <a href="/">
-            <img height="50" src="https://clipground.com/images/apple-clipart-logos-2.png">
+          <p>&#169;</p>
+            <!--- <img height="50" src="https://clipground.com/images/apple-clipart-logos-2.png"> -->
         </a>
         <nav>
             <ul>
@@ -22,20 +23,39 @@
             <button>Suscríbete</button>
         </div>
     </header>
-
+    <main>
     <h1>Bienvenido a la construcción del blog</h1>
     <p><strong>Construye</strong> tu blog en este apartado</p>
     <img class="cover" height="200" src="https://source.unsplash.com/G8_JBLFMWTg/" alt="">
     <form action="">
         Nombre: <input type="text">
         Email: <input type="email">
-        Teléfono: <input type="number">
         <button type="submit">Enviar</button>
     </form>
-    <section>
-    <video controls poster="https://source.unsplash.com/9IBqihqhuHc/" 
-      src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4">
-    </video>
+    <section class="adds">
+      <article class="video_src">
+      <video controls poster="https://source.unsplash.com/_qy3tHmhwvk/">
+      <source
+        type="video/webm"
+        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+      />
+      <source
+        type="video/mp4"
+        src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+      />
+      </video>
+    </article>
+    <article class="publish">
+      <h3>Hello</h3>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed architecto accusamus voluptates, at facilis doloremque obcaecati laudantium libero iure similique id magnam dicta quis esse atque neque pariatur debitis consequatur.</p>
+    </article>
     </section>
+    <section class="features">
+      <article class="car car1">Features 1</article>
+      <article class="car car2">Features 2</article>
+      <article class="car car3">Features 3</article>
+      <article class="car car4">Features 4</article>
+    </section>
+  </main>
   </body>
 </html>
